@@ -11,6 +11,6 @@ microIoT.microIoT_ServoRun(microIoT.aServos.S1, 180)
 basic.pause(500)
 let water_mo = pins.analogReadPin(AnalogPin.P0)
 basic.forever(function () {
-    microIoT.microIoT_showUserNumber(0, Math.idiv(pins.analogReadPin(AnalogPin.P0), 0))
+    microIoT.microIoT_showUserNumber(0, Math.trunc(pins.analogReadPin(AnalogPin.P0)))
     basic.pause(500)
 })
