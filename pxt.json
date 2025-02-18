@@ -1,5 +1,6 @@
 {
     "name": "watering machine micro:IoT",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
